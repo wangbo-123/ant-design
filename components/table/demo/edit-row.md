@@ -17,7 +17,7 @@ Table with editable rows.
 import { Table, Input, InputNumber, Popconfirm, Form } from 'antd';
 
 const data = [];
-for (let i = 0; i < 100; i++) {
+for (let i = 0; i < 10; i++) {
   data.push({
     key: i.toString(),
     name: `Edrward ${i}`,
